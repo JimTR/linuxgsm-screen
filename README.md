@@ -5,12 +5,12 @@ Installing
 
 1. Make sure you have GNU screen installed and you server is <b>not</b> running
 
-2. Download the files and place them in the correct folder currently /lgsm/functions under your game folder
+2. Download the files and place them in the correct folder currently /lgsm/functions under your server folder
    Example /home/user/gmodserver/lgsm/functions
 
 3. Mark them read only 
 
-4. Open one of the game configuration files in /config-lgsm/<servername> under you game folder
+4. Open one of the game configuration files in /config-lgsm/<servername> under you server folder
    only add to either common.cfg or <servername>.config<br>
    Example /home/user/gmodserver/config-lgsm/gmodserver/common.cfg or /home/user/gmodserver/config-lgsm/gmodserver/gmodserver.cfg
 
