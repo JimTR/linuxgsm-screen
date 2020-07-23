@@ -9,10 +9,10 @@ functionselfname="$(basename "$(readlink -f "${BASH_SOURCE[0]}")")"
 
 fn_check_is_in_tmux(){
   if [ "${TMUX}" ]; then
-		fn_print_fail_nl "multiplexer exception error: Sorry, you cannot start a ${output} session inside of a tmux session."
-		fn_script_log_fatal "Tmuxception error: Attempted to start a ${output} session inside of a tmux session."
+		fn_print_fail_nl "multiplexer exception error: Sorry, you cannot start an ${output} session inside a tmux session."
+		fn_script_log_fatal "multiplexer exception error: Attempted to start an ${output} session inside a tmux session."
 		fn_print_information_nl "LinuxGSM creates a ${output} session when starting the server."
-		echo -e "It is not possible to run a ${output} session inside a tmux session"
+		echo -e "It is not possible to run an ${output} session inside a tmux session"
 		echo -e "https://docs.linuxgsm.com/requirements/tmux#tmuxception"
 		core_exit.sh
 	fi
@@ -20,10 +20,10 @@ fn_check_is_in_tmux(){
 
 fn_check_is_in_screen(){
 	if [ "${STY}" ]; then
-		fn_print_fail_nl "multiplexer exception error: Sorry, you cannot start a ${output} session inside of a screen session."
-		fn_script_log_fatal "multiplexer exception error: Attempted to start a ${output} session inside of a screen session."
-		fn_print_information_nl "LinuxGSM creates a ${output} session when starting the server."
-		echo -e "It is not possible to run a ${output} session inside screen session"
+		fn_print_fail_nl "multiplexer exception error: Sorry, you cannot start an ${output} session inside a screen session."
+		fn_script_log_fatal "multiplexer exception error: Attempted to start an ${output} session inside a screen session."
+		fn_print_information_nl "LinuxGSM creates an ${output} session when starting the server."
+		echo -e "It is not possible to run an ${output} session inside a screen session"
 		echo -e "https://docs.linuxgsm.com/requirements/tmux#tmuxception"
 		core_exit.sh
 	fi
