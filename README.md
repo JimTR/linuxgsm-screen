@@ -25,8 +25,11 @@ Installing
 
 <p><b>I strongly suggest you only use this mod if you intend to use PHPgsm</b></p> 
     
-<p> To revert back to TMUX 
-stop your server
-simply comment out or remove the line <b>output=screen</b> from your config file
-restart your server
+<p>
+ To revert back to TMUX 
+1. stop your server
+
+2. simply comment out or remove the line <b>output=screen</b> from your config file
+
+3. restart your server
 </p>
