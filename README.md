@@ -11,8 +11,8 @@ Installing
 3. Mark them read only 
 
 4. Open one of the game configuration files in /config-lgsm/<servername> under you game folder
-   only add to either common.cfg or <servername>.config
-   Example <span style="color:blue;">/home/user/gmodserver/config-lgsm/gmodserver/common.cfg</span> or <span style="color:blue">/home/user/gmodserver/config-lgsm/gmodserver/gmodserver.cfg</span>
+   only add to either common.cfg or <servername>.config<br>
+   Example /home/user/gmodserver/config-lgsm/gmodserver/common.cfg or /home/user/gmodserver/config-lgsm/gmodserver/gmodserver.cfg
 
 5. Add the following line to the selected file
    <b>output=screen</b>
@@ -25,3 +25,8 @@ Installing
 
 <p><b>I strongly suggest you only use this mod if you intend to use PHPgsm</b></p> 
     
+<p> To revert back to TMUX 
+stop your server
+simply comment out or remove the line <b>output=screen</b> from your config file
+restart your server
+</p>
